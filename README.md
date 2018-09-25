@@ -1,25 +1,27 @@
 # レポジトリ内容
 
-このレポジトリは[Web白熱教室](https://tsuyopon.xyz/)の[HTMLの学習コンテンツ](https://tsuyopon.xyz/learning-contents/web-dev/html/)にある「[【エクササイズ】ここまで学んできたHTMLの復習その2](https://tsuyopon.xyz/learning-contents/web-dev/html/excercise-html-part-2/)」で利用するものです。
+このレポジトリは[Web白熱教室](https://tsuyopon.xyz/)の[HTMLの学習コンテンツ](https://tsuyopon.xyz/learning-contents/web-dev/html/)にある「[【エクササイズ】HTMLでのテーブル作成の復習](https://tsuyopon.xyz/learning-contents/web-dev/html/excercise-table-in-html/)」で利用するものです。
 
 ## 課題
 
 以下の完成形と同じページを作ってください。
 
 **完成形**
-![完成形](./images/assignment.png)
+![完成形](./images/assignment.gif)
 
 ### 課題をクリアするためのステップ
 
-- [ ] プロフィール画像の上にある自己紹介文はブロック要素である段落タグ(〇タグ)を利用する。
-- [ ] 自己紹介で利用する画像はお好きなものを使っていただいて構いません。もし画像がなければ、このレポジトリ内の[images/profile.png](./images/profile.png)をお使いください。
-- [ ] プロフィール画像の下にある箇条書き部分では以下内容を記述してください。
-  - [ ] 名前
-  - [ ] 職業
-  - [ ] 出身地
-  - [ ] 趣味 (入れ子構造の箇条書きで2つ以上の趣味を記述すること)
-- [ ] プロフィール画像下の箇条書きを書き終えたら、その下にh2タグで「リンク」見出しを用意して、その下にTwitterアカウントや、ポートフォリオサイトのリンクを箇条書きで作成してください。
-  - もし、インターネット上に自己紹介ページがない場合は、Googleの検索トップページ(https://www.google.co.jp/)へのリンクを作成してください。
+- [ ] テーブルのタイトル(見出し)には以下の項目を書いてください
+  - [ ] 種類
+  - [ ] 画像(クリック可)
+- [ ] テーブルのデータには3種類の猫のデータを用意してください。
+  - 3種類の猫の画像URLは以下のとおりです
+    1. https://www.pakutaso.com/shared/img/thumb/HIRAIIGIRE8s4s5_TP_V.jpg
+    2. https://www.pakutaso.com/shared/img/thumb/tomcatDSC05027_TP_V1.jpg
+    3. https://www.pakutaso.com/shared/img/thumb/nuko-9_TP_V.jpg
+  - 画像のサイズは[width属性](https://developer.mozilla.org/ja/docs/Web/HTML/Attributes)を使って横幅200pxで固定してください。
+    - 画像サイズを指定する理由は元画像が大きすぎて1ページ内に収まらなくなってしまうため
+- [ ] 猫画像をクリックしたら画像URL先にページ移動して画像だけが表示されるようにしてください。(上記完成形の画像クリック時の挙動を参照)
 
 
 ## 答え
@@ -30,9 +32,6 @@
 
 ## ヒント
 
-- 画像の表示にはimgタグと〇〇〇属性を使います。
-  - 参考: [HTMLの属性(アトリビュート)を理解する](https://tsuyopon.xyz/learning-contents/web-dev/html/understand-attributes-in-html/)
-- リンクの作成はaタグと〇〇〇〇属性を使います。
-  - 参考: [HTMLの属性(アトリビュート)を理解する](https://tsuyopon.xyz/learning-contents/web-dev/html/understand-attributes-in-html/)
-- 箇条書き(リスト表示)、入れ子構造のリストは以下でコンテンツで学習しました。
-  - 参考: [HTMLのさまざまなリスト表示（箇条書き）のやり方を覚える](https://tsuyopon.xyz/learning-contents/web-dev/html/how-to-make-lists/)
+- 画像にリンクをあてるには、imgタグをaタグで囲って実現します
+- テーブルのタイトル(見出し)には `thead` を使います
+- テーブルのデータ(猫情報)には `tbody` を使います
