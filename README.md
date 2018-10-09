@@ -1,6 +1,6 @@
 # レポジトリ内容
 
-このレポジトリは[Web白熱教室](https://tsuyopon.xyz/)の[HTMLの学習コンテンツ](https://tsuyopon.xyz/learning-contents/web-dev/html/)にある「[【エクササイズ】HTMLのフォーム作成の復習](https://tsuyopon.xyz/learning-contents/web-dev/html/excercise-form-in-html/)」で利用するものです。
+このレポジトリは[Web白熱教室](https://tsuyopon.xyz/)の[CSSの学習コンテンツ](https://tsuyopon.xyz/learning-contents/web-dev/html/)にある「[【エクササイズ】HTMLのフォーム作成の復習](https://tsuyopon.xyz/learning-contents/web-dev/html/excercise-form-in-html/)」で利用するものです。
 
 ## 課題
 

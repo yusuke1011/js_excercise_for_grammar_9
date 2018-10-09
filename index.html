@@ -2,64 +2,27 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>HTML中級編エクササイズその2</title>
+  <title>CSSエクササイズ初級編その1</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>フォームレッスン</h1>
-
-  <p>以下のフォームを埋めてください。(※は必須項目))</p>
-  <form action="">
-    <div>
-      <label for="username">※ユーザー名:</label>
-      <input type="text" id="username" name="username" required>
+    <h1>CSS初級編レッスン</h1>
+    <div class="container">
+      <h2>自己紹介</h2>
+      <ul>
+        <li><span class="bold">名前</span>: つよぽん</li>
+        <li><span class="bold">年齢</span>: xyz歳</li>
+        <li><span class="bold">職業</span>: フリーランスエンジニア</li>
+      </ul>
     </div>
-    <div>
-      <label for="password">※パスワード(6文字以上):</label>
-      <input type="password" id="password" name="password" required minlength="6">
+    <div class="container">
+      <h2>その他</h2>
+      <ul>
+        <li><span class="bold">週1</span>でフットサルとウイイレをしている</li>
+        <li><span class="bold">週2~3</span>で筋トレ</li>
+        <li><span class="bold"><span id="important">Webスキル</span>の知識をシェアしている</span></li>
+      </ul>
     </div>
-    <div>
-      ※性別:
-      <input type="radio" id="gender-f" name="gender" required value="female">
-      <label for="gender-f">女性</label>
-
-      <input type="radio" id="gender-m" name="gender" required value="male">
-      <label for="gender-m">男性</label>
-    </div>
-    <div>
-      ※生年月日:
-      <label for="year">年:</label>
-      <select name="year" id="year" required>
-        <option value="">---</option>
-        <option value="2000">2000</option>
-        <option value="2001">2001</option>
-        <option value="2002">2002</option>
-      </select>
-      <label for="month">月:</label>
-      <select name="month" id="month" required>
-        <option value="">---</option>
-        <option value="1">1</option>
-        <option value="2">2</option>
-        <option value="3">3</option>
-        <option value="12">12</option>
-      </select>
-      <label for="day">日:</label>
-      <select name="day" id="day" required>
-        <option value="">---</option>
-        <option value="1">1</option>
-        <option value="2">2</option>
-        <option value="3">3</option>
-        <option value="31">31</option>
-      </select>
-    </div>
-    <div>
-      <label for="info">備考欄:</label>
-      <div>
-        <textarea name="info" id="info" cols="30" rows="10"></textarea>
-      </div>
-    </div>
-    <div>
-      <input type="submit">
-    </div>
-  </form>
+  </div>
 </body>
 </html>
