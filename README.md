@@ -1,6 +1,6 @@
 # レポジトリ内容
 
-このレポジトリは[Web白熱教室](https://tsuyopon.xyz/)の[CSSの学習コンテンツ](https://tsuyopon.xyz/learning-contents/web-dev/css/)にある「[【エクササイズ】CSS初級編の総復習](#)」で利用するものです。
+このレポジトリは[Web白熱教室](https://tsuyopon.xyz/)の[CSSの学習コンテンツ](https://tsuyopon.xyz/learning-contents/web-dev/css/)にある「[【エクササイズ】CSS初級編の総復習](https://tsuyopon.xyz/learning-contents/web-dev/css/css_excercise_for_beginner_part_1/)」で利用するものです。
 
 ## 課題
 
