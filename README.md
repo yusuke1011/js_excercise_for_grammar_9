@@ -1,43 +1,36 @@
 # レポジトリ内容
 
-このレポジトリは[Web白熱教室](https://tsuyopon.xyz/)の[CSSの学習コンテンツ](https://tsuyopon.xyz/learning-contents/web-dev/css/)にある「[【エクササイズ】CSS初級編の総復習](https://tsuyopon.xyz/learning-contents/web-dev/css/css_excercise_for_beginner_part_1/)」で利用するものです。
+このレポジトリは[Web白熱教室](https://tsuyopon.xyz/)の[CSSの学習コンテンツ](https://tsuyopon.xyz/learning-contents/web-dev/css/)にある「[【エクササイズ】CSSでマルバツゲームのボードを作る](https://tsuyopon.xyz/learning-contents/web-dev/css/css_excercise_for_intermediate_part_1/)」で利用するものです。
 
 ## 課題
 
 以下の完成形と同じページを作ってください。
 
-**完成前**
+**完成形**
 
-![完成前](./images/only-html.png)
-
-**完成後**
-
-![完成後](./images/html-with-css.png)
-
-
+![完成形](./images/assignment.gif)
 
 ### 課題をクリアするためのステップ
 
-- [ ] index.htmlに手を付ける(修正する)のは厳禁です。
-- [ ] styles.css内のコメントに従ってcssを定義してください。(完成後の画像と同じになればクリアです)
+- [ ] index.htmlとstyles.cssのコメントに従って、上の画像の完成形と同じWebページを作成してください
+- [ ] １つ発展課題として学習コンテンツでは扱っていない `擬似クラス` を使う場面が出てきます
+  - CSS内のコメントに使用する擬似クラスのドキュメントのURLを記述したので、ドキュメントを参考に発展課題をクリアしてください。
+    - ドキュメントで問題を解決スキルはエンジニアに必要なスキルの１つとなります
 
 
 ## 答え
 
-この課題の答えは、このレポジトリの「answer.css」の中身になります。
-すぐに答えを見ずに、まずはじめに自分の力だけでチャレンジして、どうしてもわからなくなったら中身を見て、理解したらanswer.cssを閉じて再び自分の力で完成させてください。
+- htmlとcssの答えはそれぞれ `answer.html` と `answer.css` 記述しています。
+  - 全く作業が進められなくなったときに答えを参考にしても良いですが、コピー&ペーストは厳禁です
+  - 答えを見ながら実装をしたら、もう一度、今度は答えを見ないで実装してください
 
 ## ヒント
 
-以下の学習コンテンツで学習した内容を元に出しているので、以下の記事を参考にしていただければ回答にたどり着けるかと思います。
+課題をこなしていて、行き詰まったら以下の資料を参考にしていただければ回答にたどり着けるかと思います。
 
-- [CSSの役割を知る](https://tsuyopon.xyz/learning-contents/web-dev/css/understand-how-css-works/)
-- [CSSの基本構造を理解する](https://tsuyopon.xyz/learning-contents/web-dev/css/understand-structure-of-css/)
-- [HTMLとCSSの連携方法を知る](https://tsuyopon.xyz/learning-contents/web-dev/css/how-to-attach-style/)
+- [HTMLのテーブルの使い方を覚える](https://tsuyopon.xyz/learning-contents/web-dev/html/how-to-use-table-in-html/)
 - [CSSで色を設定するやり方を知る](https://tsuyopon.xyz/learning-contents/web-dev/css/how-to-set-color-in-css/)
 - [CSSのbackgroundとborderを理解する](https://tsuyopon.xyz/learning-contents/web-dev/css/understand-background-and-border-in-css/)
-- [CSSボックスモデルを理解する](https://tsuyopon.xyz/learning-contents/web-dev/css/understand-css-box-model/)
 - [CSSの基本セレクター3つを理解する](https://tsuyopon.xyz/learning-contents/web-dev/css/understand-3-basic-selectors-in-css/)
-- [CSSの3つの基本セレクター以外に見かける4つの書き方を覚える](https://tsuyopon.xyz/learning-contents/web-dev/css/understand-other-selectors-in-css/)
 - [デベロッパーツールを使ってリアルタイムにスタイルを変更する方法](https://tsuyopon.xyz/learning-contents/web-dev/css/change-style-with-developer-tool/)
-- [CSSの継承と優先度を理解する](https://tsuyopon.xyz/learning-contents/web-dev/css/understand-inheritance-and-priority-of-css/)
+- [CSSでテキストのスタイルを変更するパート2](https://tsuyopon.xyz/learning-contents/web-dev/css/how-to-change-style-of-text-in-css-part-2/)
