@@ -1,6 +1,6 @@
 # レポジトリ内容
 
-このレポジトリは[Web白熱教室](https://tsuyopon.xyz/)の[CSSの学習コンテンツ](https://tsuyopon.xyz/learning-contents/web-dev/css/)にある「[【エクササイズ】CSSでマルバツゲームのボードを作る](https://tsuyopon.xyz/learning-contents/web-dev/css/css_excercise_for_intermediate_part_1/)」で利用するものです。
+このレポジトリは[Web白熱教室](https://tsuyopon.xyz/)の[CSSの学習コンテンツ](https://tsuyopon.xyz/learning-contents/web-dev/css/)にある「[【エクササイズ】CSSのflexboxを使ってイメージギャラリーを作る](https://tsuyopon.xyz/learning-contents/web-dev/css/css_excercise_for_intermediate_part_2/)」で利用するものです。
 
 ## 課題
 
@@ -8,14 +8,11 @@
 
 **完成形**
 
-![完成形](./images/assignment.gif)
+![完成形](./images/assignment.png)
 
 ### 課題をクリアするためのステップ
 
 - [ ] index.htmlとstyles.cssのコメントに従って、上の画像の完成形と同じWebページを作成してください
-- [ ] １つ発展課題として学習コンテンツでは扱っていない `擬似クラス` を使う場面が出てきます
-  - CSS内のコメントに使用する擬似クラスのドキュメントのURLを記述したので、ドキュメントを参考に発展課題をクリアしてください。
-    - ドキュメントで問題を解決スキルはエンジニアに必要なスキルの１つとなります
 
 
 ## 答え
@@ -28,9 +25,4 @@
 
 課題をこなしていて、行き詰まったら以下の資料を参考にしていただければ回答にたどり着けるかと思います。
 
-- [HTMLのテーブルの使い方を覚える](https://tsuyopon.xyz/learning-contents/web-dev/html/how-to-use-table-in-html/)
-- [CSSで色を設定するやり方を知る](https://tsuyopon.xyz/learning-contents/web-dev/css/how-to-set-color-in-css/)
-- [CSSのbackgroundとborderを理解する](https://tsuyopon.xyz/learning-contents/web-dev/css/understand-background-and-border-in-css/)
-- [CSSの基本セレクター3つを理解する](https://tsuyopon.xyz/learning-contents/web-dev/css/understand-3-basic-selectors-in-css/)
-- [デベロッパーツールを使ってリアルタイムにスタイルを変更する方法](https://tsuyopon.xyz/learning-contents/web-dev/css/change-style-with-developer-tool/)
-- [CSSでテキストのスタイルを変更するパート2](https://tsuyopon.xyz/learning-contents/web-dev/css/how-to-change-style-of-text-in-css-part-2/)
+- [CSSのflexboxの使い方を覚える](https://tsuyopon.xyz/learning-contents/web-dev/css/how-to-use-flexbox-in-css/)

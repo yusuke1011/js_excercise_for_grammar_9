@@ -1,68 +1,68 @@
 /**
  * - 横幅が760pxのWebページを作成してください
  * - margin: 0 auto; を使うことでWebページを中央に持ってくることが出来ます。
+ * - 背景色を #cccccc とする
  */
- body, td {
+ body {
   width: 760px;
   margin: 0 auto;
+  background: #cccccc;
 }
 
 /**
  * - 見出し(h1)は中央揃えにしてください
  */
-h1 {
-  text-align: center;
-}
-
-/**
- * - テーブル(table)の横幅は350pxとする
- * - 中央揃えにする(ヒント: margin, auto)
- */
-table {
-  width: 350px;
-  margin: auto;
-}
-
-/**
- * - テーブル内の各項目(td)のサイズを正方形にするために、高さ・横幅ともに100pxとする
- */
-td {
-  width: 100px;
-  height: 100px;
-}
-
-/**
- * - テーブル内のセルに縦線(vertical line)をつけるためのボーダーをセットする
- * - クラスセレクターを使ってスタイルを定義する
- *   - クラス属性値は `vertical` とする
- * - 上下のボーダーはいらないのでborder-left, border-rightプロパティを使って、指定した要素の左右にだけボーダーを作る
- * - ボーダーは「太さは1px」「スタイルはsolid」「色は#000000」とする
- */
-.vertical {
-  border-left: 1px solid #000000;
-  border-right: 1px solid #000000;
-}
-
-/**
- * - テーブル内のセルに横線(horizontal line)をつけるためのボーダーをセットする
- * - クラスセレクターを使ってスタイルを定義する
- *   - クラス属性値は `horizontal` とする
- * - 左右ののボーダーはいらないのでborder-top, border-bottomプロパティを使って、指定した要素の上下にだけボーダーを作る
- * - ボーダーは「太さは1px」「スタイルはsolid」「色は#000000」とする
- */
-.horizontal {
-  border-top: 1px solid #000000;
-  border-bottom: 1px solid #000000;
-}
-
-
-/**
- * 発展課題
- *
- * - 各セル(td)にマウスが乗ったら、上下左右4方向に「太さ: 1px」「スタイル: solid」「色: #aaaaaa」のボーダーを表示する
- * - ヒント: CSSの擬似クラスである:hoverを使う( https://developer.mozilla.org/ja/docs/Web/CSS/:hover )
- *   - 擬似クラスは学習コンテンツでは扱っていませんが、ドキュメントを見て課題を解決スキルを身につけるのを目的に発展課題を用意しました
- */
- td:hover {
-   border: 1px solid #aaaaaa;
+ h1 {
+   text-align: center;
  }
+
+/**
+ * フレックスボックスのフレックスコンテナーとなる要素
+ *
+ * - 親要素の横幅と同じにする(%を使った書き方で記述する)
+ * - フレックスコンテナーとするためのプロパティをセットする。(ヒント display: 〇〇〇〇;)
+ * - フレックスアイテムがフレックスコンテナー内に収まりきらない場合は、改行するようにする(ヒント: flex-wrapプロパティ)
+ */
+.container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/**
+ * フレックスボックスのフレックスアイテムとなる要素
+ * 1行につきフレックスアイテムは3個置くようにする
+ *
+ * - ひとつあたりのフレックスアイテムの横幅は243pxとする
+ * - marginは左右に5px, 下に10px指定する
+ * - 背景色を #ffffff とする
+ *
+ * 横幅が243pxの理由:
+ *    - 親要素760px
+ *    - marginの左右の合計値は30px
+ *      - (5px + 5px (左右のmargin)) × 3(1行あたりのフレックスアイテムの数))
+ *    - 残り使える横幅は730px
+ *      - 760px - 30px
+ *    - 730px ÷ 3 = 243.3333....(243px)
+ */
+.picture {
+  width: 243px;
+  margin: 0 5px 10px 5px;
+  background: #ffffff;
+}
+
+/**
+ * - 画像タイトルは中央寄せにして
+ * - デフォルトの文字サイズを100%として、80%の大きさにする
+ */
+.picture-title {
+  text-align: center;
+  font-size: 80%;
+}
+
+/**
+ * フレックスアイテム内の画像は親要素の横幅と同じにする(%を使った書き方で記述する)
+ */
+.picture img {
+  width: 100%;
+}
