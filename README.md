@@ -1,6 +1,6 @@
 # レポジトリ内容
 
-このレポジトリは[Web白熱教室](https://tsuyopon.xyz/)の[CSSの学習コンテンツ](https://tsuyopon.xyz/learning-contents/web-dev/css/)にある「[【エクササイズ】ブログページを作ってみる](https://tsuyopon.xyz/learning-contents/web-dev/css/css_excercise_for_intermediate_part_3/)」で利用するものです。
+このレポジトリは[Web白熱教室](https://tsuyopon.xyz/)の[CSSの学習コンテンツ](https://tsuyopon.xyz/learning-contents/web-dev/css/)にある「[【エクササイズ】CSSを使ってブログページのスタイルを整える](https://tsuyopon.xyz/learning-contents/web-dev/css/css_excercise_for_intermediate_part_3/)」で利用するものです。
 
 ## 課題
 
