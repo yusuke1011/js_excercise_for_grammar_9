@@ -1,68 +1,56 @@
 /**
- * - 横幅が760pxのWebページを作成してください
- * - margin: 0 auto; を使うことでWebページを中央に持ってくることが出来ます。
- * - 背景色を #cccccc とする
+ *  - ベースとなるスタイルを定義。
+ *  - body要素内の全ての要素はbody要素のスタイル定義を継承する。
+ *    - CSSの継承と優先度を理解する: https://tsuyopon.xyz/learning-contents/web-dev/css/understand-inheritance-and-priority-of-css/
  */
- body {
-  width: 760px;
-  margin: 0 auto;
-  background: #cccccc;
+body {
+  width: 80%;
+  border: 20px solid #bdc3c7;
+  font-family: Lato, "Noto Sans JP", "游ゴシック Medium", "游ゴシック体", "Yu Gothic Medium", YuGothic, "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 700px;
 }
 
-/**
- * - 見出し(h1)は中央揃えにしてください
- */
- h1 {
-   text-align: center;
- }
-
-/**
- * フレックスボックスのフレックスコンテナーとなる要素
- *
- * - 親要素の横幅と同じにする(%を使った書き方で記述する)
- * - フレックスコンテナーとするためのプロパティをセットする。(ヒント display: 〇〇〇〇;)
- * - フレックスアイテムがフレックスコンテナー内に収まりきらない場合は、改行するようにする(ヒント: flex-wrapプロパティ)
- */
-.container {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
+.post {
+  margin-bottom: 20px;
+  border-bottom: 1px dashed #2c3e50;
 }
 
-/**
- * フレックスボックスのフレックスアイテムとなる要素
- * 1行につきフレックスアイテムは3個置くようにする
- *
- * - ひとつあたりのフレックスアイテムの横幅は243pxとする
- * - marginは左右に5px, 下に10px指定する
- * - 背景色を #ffffff とする
- *
- * 横幅が243pxの理由:
- *    - 親要素760px
- *    - marginの左右の合計値は30px
- *      - (5px + 5px (左右のmargin)) × 3(1行あたりのフレックスアイテムの数))
- *    - 残り使える横幅は730px
- *      - 760px - 30px
- *    - 730px ÷ 3 = 243.3333....(243px)
- */
-.picture {
-  width: 243px;
-  margin: 0 5px 10px 5px;
-  background: #ffffff;
+.date {
+  color: #3498db;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
 }
 
-/**
- * - 画像タイトルは中央寄せにして
- * - デフォルトの文字サイズを100%として、80%の大きさにする
- */
-.picture-title {
-  text-align: center;
-  font-size: 80%;
+.keyword {
+  font-weight: bold;
+  font-size: 1.2em;
+  text-decoration-line: underline;
+  color: #ff0000;
+  margin: 0 5px 0 5px;
 }
 
-/**
- * フレックスアイテム内の画像は親要素の横幅と同じにする(%を使った書き方で記述する)
- */
-.picture img {
-  width: 100%;
+.example{
+  border-left: 5px solid #bdc3c7;
+  padding-left: 5px;
+  margin-left: 5px;
+}
+
+h2 {
+  font-size: 1.8em;
+  font-weight: bold;
+  background: #2c3e50;
+  color: #ffffff;
+  padding: 5px;
+}
+
+h3 {
+  font-size: 1.2em;
+  border-bottom: 1px solid #2c3e50;
+  padding-left: 5px;
+}
+
+p {
+  padding: 5px;
 }
