@@ -1,56 +1,29 @@
 /**
- *  - ベースとなるスタイルを定義。
- *  - body要素内の全ての要素はbody要素のスタイル定義を継承する。
- *    - CSSの継承と優先度を理解する: https://tsuyopon.xyz/learning-contents/web-dev/css/understand-inheritance-and-priority-of-css/
+ * - 背景色を #cccccc にする
  */
-body {
-  width: 80%;
-  border: 20px solid #bdc3c7;
-  font-family: Lato, "Noto Sans JP", "游ゴシック Medium", "游ゴシック体", "Yu Gothic Medium", YuGothic, "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
-  padding: 20px;
-  margin: 20px auto;
-  max-width: 700px;
+ body {
+  background: #cccccc;
 }
 
-.post {
-  margin-bottom: 20px;
-  border-bottom: 1px dashed #2c3e50;
+/**
+ * - ナビゲーションバーと画像一覧の間のスペースをあけるため、paddingを利用する
+ */
+.img-gallery {
+  padding: 3em 0;
 }
 
-.date {
-  color: #3498db;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
+/**
+ * - 各画像の下にあるタイトルは中央揃いにする
+ * - タイトルの上下にスペースを入れるためにmarginを追加する
+ */
+.img-title {
+  text-align: center;
+  margin: 10px 0;
 }
 
-.keyword {
-  font-weight: bold;
-  font-size: 1.2em;
-  text-decoration-line: underline;
-  color: #ff0000;
-  margin: 0 5px 0 5px;
-}
-
-.example{
-  border-left: 5px solid #bdc3c7;
-  padding-left: 5px;
-  margin-left: 5px;
-}
-
-h2 {
-  font-size: 1.8em;
-  font-weight: bold;
-  background: #2c3e50;
-  color: #ffffff;
-  padding: 5px;
-}
-
-h3 {
-  font-size: 1.2em;
-  border-bottom: 1px solid #2c3e50;
-  padding-left: 5px;
-}
-
-p {
-  padding: 5px;
+/**
+ * - 画像幅を親要素内に収めるために100%を指定する
+ */
+img {
+  width: 100%;
 }
