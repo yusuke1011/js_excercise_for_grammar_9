@@ -1,6 +1,6 @@
 # レポジトリ内容
 
-このレポジトリは[Web白熱教室](https://tsuyopon.xyz/)の[JavaScriptの学習コンテンツ > JavaScript基礎文法編](https://tsuyopon.xyz/learning-contents/web-dev/javascript/javascript-grammar/)にある「[【エクササイズ】JavaScriptの変数とデバッグ方法を復習](https://tsuyopon.xyz/learning-contents/web-dev/javascript/javascript-grammar/js_excercise_for_grammar_part_1/)」で利用するものです。
+このレポジトリは[Web白熱教室](https://tsuyopon.xyz/)の[JavaScriptの学習コンテンツ > JavaScript基礎文法編](https://tsuyopon.xyz/learning-contents/web-dev/javascript/javascript-grammar/)にある「[【エクササイズ】プリミティブ型・変数・デバッグ方法を復習【JavaScript】](https://tsuyopon.xyz/learning-contents/web-dev/javascript/javascript-grammar/js_excercise_for_grammar_part_1/)」で利用するものです。
 
 ## 課題
 
