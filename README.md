@@ -1,6 +1,6 @@
 # レポジトリ内容
 
-このレポジトリは[Web白熱教室](https://tsuyopon.xyz/)の[JavaScriptの学習コンテンツ > JavaScript基礎文法編](https://tsuyopon.xyz/learning-contents/web-dev/javascript/javascript-grammar/)にある「[エクササイズ】入力内容に応じてalertメッセージを切り替える](https://tsuyopon.xyz/learning-contents/web-dev/javascript/javascript-grammar/js_excercise_for_grammar_part_2/)」で利用するものです。
+このレポジトリは[Web白熱教室](https://tsuyopon.xyz/)の[JavaScriptの学習コンテンツ > JavaScript基礎文法編](https://tsuyopon.xyz/learning-contents/web-dev/javascript/javascript-grammar/)にある「【エクササイズ】入力内容に応じてalertメッセージを切り替える](https://tsuyopon.xyz/learning-contents/web-dev/javascript/javascript-grammar/js_excercise_for_grammar_part_2/)」で利用するものです。
 
 
 ### 完成形
