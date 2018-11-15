@@ -1,11 +1,11 @@
 # レポジトリ内容
 
-このレポジトリは[Web白熱教室](https://tsuyopon.xyz/)の[JavaScriptの学習コンテンツ > JavaScript基礎文法編](https://tsuyopon.xyz/learning-contents/web-dev/javascript/javascript-grammar/)にある「[【エクササイズ】JavaScriptのスコープ・高階関数・即時関数の理解度チェック](https://tsuyopon.xyz/learning-contents/web-dev/javascript/javascript-grammar/js_excercise_for_grammar_part_6/)」で利用するものです。
+このレポジトリは[Web白熱教室](https://tsuyopon.xyz/)の[JavaScriptの学習コンテンツ > JavaScript基礎文法編](https://tsuyopon.xyz/learning-contents/web-dev/javascript/javascript-grammar/)にある「[【エクササイズ】JavaScriptの配列の理解度チェック](https://tsuyopon.xyz/learning-contents/web-dev/javascript/javascript-grammar/js_excercise_for_grammar_part_7/)」で利用するものです。
 
 
 ### 完成形
 
-![完成形](./images/assignment.gif)
+![完成形](./images/assignment.png)
 
 ## 課題
 
@@ -27,6 +27,7 @@
 課題をこなしていて、行き詰まったら以下の資料を参考にしていただければ解答にたどり着けるかと思います。
 
 
-- [JavaScriptの変数のスコープを理解する](https://tsuyopon.xyz/learning-contents/web-dev/javascript/javascript-grammar/understand-scope-in-js/)
-- [JavaScriptのコールバック関数と高階関数を理解する](https://tsuyopon.xyz/learning-contents/web-dev/javascript/javascript-grammar/understand-higher-order-function-and-callback-function/)
-- [JavaScriptの即時関数を理解する](https://tsuyopon.xyz/learning-contents/web-dev/javascript/javascript-grammar/understand-iife-in-js/)
+- [【JavaScript】配列とは](https://tsuyopon.xyz/learning-contents/web-dev/javascript/javascript-grammar/what-is-the-array-in-js/)
+- [JavaScriptでの配列の作り方](https://tsuyopon.xyz/learning-contents/web-dev/javascript/javascript-grammar/how-to-create-an-array-in-js/)
+- [JavaScriptでの多次元配列の作り方](https://tsuyopon.xyz/learning-contents/web-dev/javascript/javascript-grammar/how-to-create-multi-dimensional-array-in-js/)
+- [JavaScriptの配列の組み込みメソッドを使ってみる](https://tsuyopon.xyz/learning-contents/web-dev/javascript/javascript-grammar/how-to-use-array-methods-in-js/)
