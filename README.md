@@ -1,11 +1,11 @@
 # レポジトリ内容
 
-このレポジトリは[Web白熱教室](https://tsuyopon.xyz/)の[JavaScriptの学習コンテンツ > JavaScript基礎文法編](https://tsuyopon.xyz/learning-contents/web-dev/javascript/javascript-grammar/)にある「[【エクササイズ】JavaScriptの配列の理解度チェック](https://tsuyopon.xyz/learning-contents/web-dev/javascript/javascript-grammar/js_excercise_for_grammar_part_7/)」で利用するものです。
+このレポジトリは[Web白熱教室](https://tsuyopon.xyz/)の[JavaScriptの学習コンテンツ > JavaScript基礎文法編](https://tsuyopon.xyz/learning-contents/web-dev/javascript/javascript-grammar/)にある「[【エクササイズ】JavaScriptで簡易Todoアプリを作る](https://tsuyopon.xyz/learning-contents/web-dev/javascript/javascript-grammar/js_excercise_for_grammar_part_8/)」で利用するものです。
 
 
 ### 完成形
 
-![完成形](./images/assignment.png)
+![完成形](./images/assignment.gif)
 
 ## 課題
 
@@ -27,7 +27,14 @@
 課題をこなしていて、行き詰まったら以下の資料を参考にしていただければ解答にたどり着けるかと思います。
 
 
-- [【JavaScript】配列とは](https://tsuyopon.xyz/learning-contents/web-dev/javascript/javascript-grammar/what-is-the-array-in-js/)
-- [JavaScriptでの配列の作り方](https://tsuyopon.xyz/learning-contents/web-dev/javascript/javascript-grammar/how-to-create-an-array-in-js/)
-- [JavaScriptでの多次元配列の作り方](https://tsuyopon.xyz/learning-contents/web-dev/javascript/javascript-grammar/how-to-create-multi-dimensional-array-in-js/)
-- [JavaScriptの配列の組み込みメソッドを使ってみる](https://tsuyopon.xyz/learning-contents/web-dev/javascript/javascript-grammar/how-to-use-array-methods-in-js/)
+- Web白熱教室
+  - [JavaScriptでの配列の作り方](https://tsuyopon.xyz/learning-contents/web-dev/javascript/javascript-grammar/how-to-create-an-array-in-js/)
+  - [JavaScriptの配列の組み込みメソッドを使ってみる](https://tsuyopon.xyz/learning-contents/web-dev/javascript/javascript-grammar/how-to-use-array-methods-in-js/)
+  - [JavaScriptでif-elseを使った条件分岐](https://tsuyopon.xyz/learning-contents/web-dev/javascript/javascript-grammar/how-to-use-if-else-statements/)
+  - [JavaScriptでループ処理をする【Whileループ】](https://tsuyopon.xyz/learning-contents/web-dev/javascript/javascript-grammar/how-to-use-while-loop-in-js/)
+  - [JavaScriptでの関数宣言の書き方](https://tsuyopon.xyz/learning-contents/web-dev/javascript/javascript-grammar/how-to-write-functions-in-js-part-1/)
+- MDN
+  - [Array.prototype.splice()](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Array/splice)
+  - [window.prompt](https://developer.mozilla.org/ja/docs/Web/API/Window/prompt)
+  - [parseInt()](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/parseInt)
+  - [isNaN()](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/isNaN)
