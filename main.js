@@ -30,21 +30,21 @@
  */
 
 // ここでeach関数を作る
-const each = (array,callback) => {
+const each = (array, callback) => {
     for(let i = 0; i < array.length; i++){
-        callback(array[i],i);
+        callback(array[i], i);
     }
 }
 
 // ここでeach関数の挙動を確かめる
-const putLog = (arrayElement,num) => {
-    console.log(`index：`,num,`、element：`,arrayElement);
+const putLog = (arrayElement, num) => {
+    console.log(`index：`, num, `、element：`, arrayElement);
 }
 
-const testArray = ['テスト1','テスト2','テスト3'];
+const testArray = ['テスト1', 'テスト2', 'テスト3'];
 
-console.log(`input`,testArray);
-each(testArray,putLog);
+console.log(`input`, testArray);
+each(testArray, putLog);
 
 /**
  * 課題2: 「Array.prototype.map()」と同等の機能を持つ関数を作る
@@ -74,29 +74,29 @@ each(testArray,putLog);
  */
 
 // ここでmap関数を実装する
-const map = (array,callback) => {
+const map = (array, callback) => {
     const returnArray = [array.length];
     //初期化
     for(let i = 0; i < array.length; i++){
         returnArray[i] = 0;
     }
 
-    each(array,(arryaElement,num) => {
-        returnArray[num] = callback(arryaElement,num);
+    each(array,(arryaElement, num) => {
+        returnArray[num] = callback(arryaElement, num);
     })
     return returnArray;
 }
 
 // ここでmap関数の挙動を確認する
-const testArray2 = [1,2,3,4];
+const testArray2 = [1, 2, 3, 4];
 
-const testMap = (arrayElement,num) => {
+const testMap = (arrayElement, num) => {
     const returnArrayElement = arrayElement * num;
-    console.log(arrayElement,'*',num,'=',returnArrayElement);
+    console.log(arrayElement, '*', num, '=', returnArrayElement);
     return returnArrayElement;
 }
 
-console.log(map(testArray2,testMap));
+console.log(map(testArray2, testMap));
 
 
 /**
@@ -129,11 +129,11 @@ console.log(map(testArray2,testMap));
  */
 
 // ここでfilter関数を作る
-const filter = (array,callback) => {
+const filter = (array, callback) => {
     const returnArray = [];
 
-    each(array,(arrayElement,num) => {
-        if(callback(arrayElement,num)){
+    each(array, (arrayElement, num) => {
+        if(callback(arrayElement, num)){
             returnArray.push(arrayElement);
         }    
     })
@@ -142,10 +142,10 @@ const filter = (array,callback) => {
 }
 
 // ここでfilter関数の挙動を確認する
-const falseDetect = (arrayElement,num) => {
+const falseDetect = (arrayElement, num) => {
     return !!arrayElement;
 }
 
-const testArray3 = [1,null,2,undefined,NaN,3,4];
+const testArray3 = [1, null, 2, undefined, NaN, 3, 4];
 
-console.log(filter(testArray3,falseDetect));
+console.log(filter(testArray3, falseDetect));
