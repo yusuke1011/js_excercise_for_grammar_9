@@ -87,7 +87,7 @@ const testMap = (arrayElement, num) => {
     const returnArrayElement = arrayElement * num;
     console.log(arrayElement, '*', num, '=', returnArrayElement);
     return returnArrayElement;
-}
+};
 
 console.log(map(testArray2, testMap));
 
