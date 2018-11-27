@@ -34,17 +34,14 @@ const each = (array, callback) => {
     for(let i = 0; i < array.length; i++){
         callback(array[i], i);
     }
-}
-
-// ここでeach関数の挙動を確かめる
-const putLog = (arrayElement, num) => {
-    console.log(`index：`, num, `、element：`, arrayElement);
-}
+};
 
 const testArray = ['テスト1', 'テスト2', 'テスト3'];
 
-console.log(`input`, testArray);
-each(testArray, putLog);
+console.log('input', testArray);
+each(testArray, (arrayElement, num) => {
+    console.log('index：', num, '、element：', arrayElement);
+});
 
 /**
  * 課題2: 「Array.prototype.map()」と同等の機能を持つ関数を作る
@@ -75,15 +72,11 @@ each(testArray, putLog);
 
 // ここでmap関数を実装する
 const map = (array, callback) => {
-    const returnArray = [array.length];
-    //初期化
-    for(let i = 0; i < array.length; i++){
-        returnArray[i] = 0;
-    }
+    const returnArray = [];
 
     each(array,(arryaElement, num) => {
-        returnArray[num] = callback(arryaElement, num);
-    })
+        returnArray.push(callback(arryaElement, num));
+    });
     return returnArray;
 }
 
@@ -136,7 +129,7 @@ const filter = (array, callback) => {
         if(callback(arrayElement, num)){
             returnArray.push(arrayElement);
         }    
-    })
+    });
 
     return returnArray;
 }
@@ -144,7 +137,7 @@ const filter = (array, callback) => {
 // ここでfilter関数の挙動を確認する
 const falseDetect = (arrayElement, num) => {
     return !!arrayElement;
-}
+};
 
 const testArray3 = [1, null, 2, undefined, NaN, 3, 4];
 
